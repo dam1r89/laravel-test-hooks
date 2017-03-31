@@ -1,0 +1,16 @@
+{
+    "name": "dam1r89/test-webhooks",
+    "description": "Creates a webhooks that make end to end or manual testing of Laravel apps easier. Allows creating db snapshots and changing app date.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Damir Miladinov",
+        "email": "damir89@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "dam1r89\\TestHooks\\": "src/TestHooks/"
+        }
+    },
+    "require": {}
+}
