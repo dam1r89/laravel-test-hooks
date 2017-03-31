@@ -1,5 +1,5 @@
 {
-    "name": "dam1r89/test-webhooks",
+    "name": "dam1r89/test-hooks",
     "description": "Creates a webhooks that make end to end or manual testing of Laravel apps easier. Allows creating db snapshots and changing app date.",
     "type": "library",
     "license": "MIT",

@@ -1,5 +1,6 @@
 Adds a webhooks useful for testing
 
+    composer require --dev dam1r89/test-hooks
 
 ## Configuration:
 
@@ -21,7 +22,4 @@ PUT | /test-hooks/db/restore | **state** - state name | Restore previously saved
 GET | /test-hooks/date | | Get curren test date
 PUT | /test-hooks/date | **date** - in format '2017-04-01 13:00:13' | Set testing date 
 DELETE | /test-hooks/date | | Clear test date
-
-
-
 
