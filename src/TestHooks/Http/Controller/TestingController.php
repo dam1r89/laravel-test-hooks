@@ -13,7 +13,8 @@ class TestingController extends Controller
     {
         return [
             'states' => $db->getStates(),
-            'date' => $date->get()
+            'date' => $date->get(),
+            'csrfToken' => csrf_token()
         ];
     }
 

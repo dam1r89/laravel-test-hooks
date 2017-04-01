@@ -4,11 +4,17 @@ Adds a webhooks useful for testing
 
 ## Configuration:
 
+config/app.php
+	
+	dam1r89\TestHooks\TestHooksServiceProvider::class,
+
 Publish
 
 	php artisan vendor:publish --tag="testhooks"
 
 by default it works only on `testing` and `local` environment.
+
+
 
 ## Methods
 
@@ -23,3 +29,8 @@ GET | /test-hooks/date | | Get curren test date
 PUT | /test-hooks/date | **date** - in format '2017-04-01 13:00:13' | Set testing date 
 DELETE | /test-hooks/date | | Clear test date
 
+## Extension
+
+With extension you can do it from chrome browser. Get it [here](https://chrome.google.com/webstore/detail/test-hooks/fiojdbbkhjjmppeppemgckijlngdhlha)
+
+![preview](https://cloud.githubusercontent.com/assets/3540487/24579737/2bb7568a-16fb-11e7-8c33-d21d47574526.gif)
